@@ -1,0 +1,28 @@
+body{
+  background-color: grey;
+  font-family: verdana;
+  font-size: 20px;
+}
+header{
+  background: darkgrey;
+}
+main{
+  background-color: yellow;
+  color: blue;
+  width: 60%;
+  padding: 20px;
+  border: 7px solid white;
+}
+ul{
+  width: 70%;
+  margin: auto;
+  border: 5px solid black;
+}
+ul li{
+  background-color: green;
+  padding-left: 5px;
+  margin: 20px;
+  width: 200px;
+  border-radius: 5px;
+  list-style-type: none;
+}

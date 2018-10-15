@@ -1,0 +1,57 @@
+
+body{
+  width:60%;
+  background-color: lightblue; /*alt som liger inni body får denne egenskaper*/
+  font-family:"century gothic";
+  font-size: 24px:
+}
+p{
+  background-color: lightblue;
+  padding: 15px; /*hvor stor omkretsen til den røde skal være*/
+}
+
+header,main{
+color: white;
+}
+
+header{
+  background-color: grey;
+}
+
+li{
+  background-color: indianred;
+  padding: 5px; /*øke luft mellom kantlinje og tekst*/
+  margin: 2px; /*gi luft mellom boksene*/
+  width: 200px;
+  border-radius: 5px; /*avrunnede kanter*/
+}
+
+img #støy{
+width:400;
+height:300;
+}
+
+img #sot{
+  width: 350;
+  height:250;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul a {
+  display: block;
+  background-color: lightpink;
+  width: 40px;
+  padding: 5px;
+  margin:1px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+}
+ul a:hover {
+  background-color: white;
+}

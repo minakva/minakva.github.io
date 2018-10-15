@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudoklasser og pseudoselektorer</title>
+<style media="screen">
+  img{
+    width: 300px;
+    transition: 1s;
+  }
+
+#detFørsteBildet:hover{
+  transform: scale(2)
+}
+#detAndreBildet:active{
+  transform:translateX(100px);
+}
+
+</style>
+  </head>
+  <body>
+
+<img is="detFørsteBildet" src="sunset.jpeg" alt="">
+<img id="detAndreBildet" src="sunset.jpeg" alt="">
+  </body>
+</html>

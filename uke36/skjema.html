@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Skjema</title>
+  </head>
+  <body style="background-color:lightgrey; color: white; margin:30px">
+
+<h1 style="background-color: grey; color: white"> Registereringsskjema til min konfirmasjon</h1>
+
+<form action="register.html"> <!--Oppretter et skjema-->
+  <label>Navn:</label> <!--Lager en beskrivende tekst-->
+  <input type="text" name="Navn" required placeholder="Skiv inn ditt navn"> <!--Lager et input-felt av typen text hvor man kan skrive inn-->
+  <label>Alder:</label>
+  <input type="number" name="Alder" required placeholder="Skriv inn din alder"> <!--required betyr at man må svare for å komme videre, placeholder betyr at det står hva du skal skrive inn i feltet-->
+<br> <!--Lage linjeskift-->
+<br>
+<h2 style="background-color: grey; color: white;"><label>Hva ønsker du å spise?</label></h2>
+  <input type="radio" value="Taco" name="rbMat"><label>Taco</label>
+  <input type="radio" value="Pizza" name="rbMat"><label>Pizza</label>
+  <input type="radio" value="Torsk" name="rbMat"><label>Torsk</label>
+<br>
+<br>
+<h2 style="background-color: grey; color: white;"><label>Hva har du lyst til å drikke?</label></h2> <!--Opretter en nedtrekksmeny-->
+<select name="Velg drikk" required>
+    <option value="">Hva har du lyst til å drikke?</option>
+    <option value="brus">Brus</option>
+    <option value="saft">Saft</option>
+    <option value="vann">Vann</option>
+</select>
+8
+<br>
+  <button type="submit">Send inn</button>
+</form>
+
+  </body>
+</html>
