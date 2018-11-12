@@ -1,0 +1,56 @@
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 5fr 1fr 1fr 1fr;
+  background-color: black;
+  text-align: center;
+}
+header>.lenke{
+  align-self: center;
+}
+header>.lenke>a{
+  color: white;
+  text-decoration: none;
+  font-family: helvetica;
+}
+#logo>h3{
+  font-size: 25px;
+  color: white;
+  font-family: helvetica;
+  margin: 10px;
+}
+main{
+  width: 900px;
+  text-align: center;
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-auto-rows: minmax(50px,auto)
+}
+main>section{
+
+}
+.middelssak{
+  grid-column: span 2;
+  grid-row: span 2;
+
+}
+.litensak{
+  grid-column: span
+}
+.storsak{
+  grid-column: span 3;
+  grid-row: span 3;
+}
+img{
+  width: 100%;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
