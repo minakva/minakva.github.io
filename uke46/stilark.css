@@ -40,17 +40,18 @@ ul{
 
 #logo>h3{
   font-size: 25px;
-  color: white;
-  font-family: helvetica;
   margin: 10px;
 }
 body{
   margin:0;
   background-color: black;
+  color: white;
+  font-family: helvetica;
+  display:grid;
 }
 main{
   display: grid;
-  grid-template-columns: repeat(10,1fr);
+  grid-template-columns: ;
   grid-gap: 5px;
 }
 .kol-1{
@@ -82,13 +83,4 @@ main{
 }
 .kol-10{
   grid-column: span 10;
-}
-
-
-h3{
-  color: white;
-  font-family: helvetica;
-}
-p{
-  color: white;
 }
