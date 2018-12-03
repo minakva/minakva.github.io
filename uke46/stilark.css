@@ -15,7 +15,6 @@ a{
   text-decoration: none;
   font-family: helvetica;
 }
-<style>
 .dropdown{
   position: relative;
   display: inline-block;
@@ -25,17 +24,19 @@ a{
   position: absolute;
   background-color: black;
   color: white;
-  padding: 10px 10px;
   text-align: center;
 }
 .dropdown:hover .dropdown-content{
   display: block;
 }
-</style>
 
 ul{
   list-style-type: none;
-  text-align: center;
+  text-align: left;
+  padding: 5px;
+}
+ul>li{
+  margin: 2px;
 }
 
 #logo>h3{
@@ -49,38 +50,8 @@ body{
   font-family: helvetica;
   display:grid;
 }
-main{
+.grid{
   display: grid;
-  grid-template-columns: ;
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 5px;
-}
-.kol-1{
-  grid-column: span 1;
-}
-.kol-2{
-  grid-column: span 2;
-}
-.kol-3{
-  grid-column: span 3;
-}
-.kol-4{
-  grid-column: span 4;
-}
-.kol-5{
-  grid-column: span 5;
-}
-.kol-6{
-  grid-column: span 6;
-}
-.kol-7{
-  grid-column: span 7;
-}
-.kol-8{
-  grid-column: span 8;
-}
-.kol-9{
-  grid-column: span 9;
-}
-.kol-10{
-  grid-column: span 10;
 }
