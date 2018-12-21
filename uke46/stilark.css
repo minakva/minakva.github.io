@@ -64,3 +64,9 @@ img:active{
 img{
   transition: 1s;
 }
+.grid-element{
+  display: grid;
+  grid-template-columns: 700px 700px;
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+}
